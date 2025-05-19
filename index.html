@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gharbawy | مصمم جرافيك</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+    header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #fff;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #ccc;
+      padding: 15px 20px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #444;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .about, .services, .contact {
+      background-color: #1a1a1a;
+      margin: 20px 0;
+      border-radius: 10px;
+      padding: 30px;
+    }
+    h3 {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "\2022";
+      color: #888;
+      display: inline-block; 
+      width: 1em;
+      margin-right: 10px;
+    }
+    footer {
+      background-color: #222;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #999;
+    }
+    .contact p, .contact a {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="شعار Gharbawy">
+    <h1>Gharbawy</h1>
+    <p>مصمم جرافيك | شعارات - كروت - سوشيال ميديا</p>
+  </header>
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#about">من أنا</a>
+    <a href="#portfolio">أعمالي</a>
+    <a href="#services">الخدمات</a>
+    <a href="#contact">تواصل</a>
+  </nav>
+
+  <section class="hero">
+    <h2>مرحبًا بك في معرض أعمالي</h2>
+    <p>استعرض بعضًا من تصميماتي في مجالات متعددة.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h3>من أنا</h3>
+    <p>أنا Gharbawy، مصمم جرافيك شغوف بتحويل الأفكار إلى تصاميم تنبض بالإبداع. أمتلك خبرة في تصميم الشعارات، الهويات البصرية، كروت العمل، وتصميمات السوشيال ميديا والكفرات، وأسعى دائمًا لتقديم جودة احترافية ترضي العميل وتبرز رسالته.</p>
+  </section>
+
+  <section id="portfolio" class="gallery">
+    <img src="images/design1.jpg" alt="تصميم من أعمالي">
+    <img src="https://via.placeholder.com/400x300?text=تصميم+2" alt="تصميم 2">
+    <img src="https://via.placeholder.com/400x300?text=تصميم+3" alt="تصميم 3">
+    <img src="https://via.placeholder.com/400x300?text=تصميم+4" alt="تصميم 4">
+  </section>
+
+  <section id="services" class="services">
+    <h3>الخدمات</h3>
+    <ul>
+      <li>تصميم شعارات وهوية بصرية</li>
+      <li>كروت شخصية احترافية</li>
+      <li>تصميمات سوشيال ميديا</li>
+      <li>كفرات فيسبوك وصفحات</li>
+      <li>بروفايلات شركات ومطاعم</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>تواصل معي</h3>
+    <p>للتواصل وطلب خدمة:</p>
+    <p>واتساب: <a href="https://wa.me/201234567890" target="_blank">اضغط هنا</a></p>
+    <p>الإيميل: <a href="mailto:gharbaawy.design@gmail.com">gharbaawy.design@gmail.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Gharbawy. جميع الحقوق محفوظة.
+  </footer>
+</body>
+</html>
